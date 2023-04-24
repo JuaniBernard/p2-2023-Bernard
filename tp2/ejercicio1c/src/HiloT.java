@@ -23,5 +23,6 @@ public class HiloT extends Thread {
                 throw new RuntimeException(e);
             }
         }
+        System.out.println(this.nombre + "(" + iteracion + ")" + " terminado\n");
     }
 }
